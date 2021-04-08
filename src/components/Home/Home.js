@@ -13,6 +13,9 @@ const Home = () => {
     return (
         <div className="row">
             {
+                books.length === 0 && <h3 className="text-center mx-auto">Loading.....</h3>
+            }
+            {
                 books.map(book =><Books book={book}></Books>)
             }
         </div>
