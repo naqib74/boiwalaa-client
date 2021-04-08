@@ -6,12 +6,12 @@ const Home = () => {
     const [books , setBooks] =useState([])
 
     useEffect( () =>{
-        fetch('http://localhost:4000/books')
+        fetch('https://infinite-sea-92018.herokuapp.com/books')
         .then(res => res.json())
         .then(data => setBooks(data))
     },[])
     return (
-        <div>
+        <div className="row">
             {
                 books.map(book =><Books book={book}></Books>)
             }

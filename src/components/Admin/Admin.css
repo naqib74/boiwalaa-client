@@ -1,0 +1,9 @@
+.image-upload{
+    background-color: aqua;
+}
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
