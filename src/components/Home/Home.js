@@ -11,7 +11,7 @@ const Home = () => {
         .then(data => setBooks(data))
     },[])
     return (
-        <div className="row">
+        <div className="row ">
             {
                 books.length === 0 && <h3 className="text-center mx-auto">Loading.....</h3>
             }

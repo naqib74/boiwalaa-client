@@ -1,6 +1,13 @@
 # Full-stack online bookshop App
 
 
+### `App Feature:`
+
+1. User can order their favorite books and check their previous order. \
+2.Admin can add books and manage orders. \
+3.Login with Google. \
+
+
 ### `Front-End technology use:`
 
 1.React \
